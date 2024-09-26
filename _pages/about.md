@@ -35,9 +35,6 @@ My research interest lies in Human-Centric AI.
 # 📝 Publications 
 
 
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
 # 🎖 Selected Honors and Awards
 - *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
 - *2023.05* Fung Scholar and Fung Scholarship (Together with World Level University Students like MIT), the University of Hong Kong!
@@ -45,7 +42,7 @@ My research interest lies in Human-Centric AI.
 - *2021.09* Jianbing Alumni Inspirational Scholarship (Top 2 out of over 300 people), Xi'an Jiaotong University!
   
 # 📖 Educations
-- *2024.08 - now*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.08 - now*, Ph.D. Student, CSE Department, the Hong Kong University of Science and Technology. 
 - *2021.09 - 2024.07*, B.S. in Engineering, Automation, Faculty of Electronics and Information Engineering, Xi'an Jiaotong University.
 - *2020.10 - 2024.05*, Dual B.S. in Manangement, Accounting(ACCA Track), School of Management, Xi'an Jiaotong University.
 - *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
