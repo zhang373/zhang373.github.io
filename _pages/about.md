@@ -29,35 +29,31 @@ My research interest lies in Human-Centric AI.
 - *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
 - *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Automation, the Department of Electronic and Information Engineering, XJTU!
 - *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Accounting (ACCA Track), the Management School, XJTU!
+- *2023.09*: &nbsp;🎉🎉 I start my journey in HKUST(GZ) as a research intern!
+- *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Selected Honors and Awards
-- *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology.
-- *2023.05* Fung Scholar and Fung Scholarship (Together with World Level University Students like MIT), the University of Hong Kong.
-- *2021.09* Jianbing Alumni Inspirational Scholarship (Top 2 out of over 300 people), Xi'an Jiaotong University
-
+- *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
+- *2023.05* Fung Scholar and Fung Scholarship (Together with World Level University Students like MIT), the University of Hong Kong!
+- *2023.05* First Prize of National University Student Mathematical Modeling Competition in Shaanxi Competition Region, Xi'an Jiaotong University!
+- *2021.09* Jianbing Alumni Inspirational Scholarship (Top 2 out of over 300 people), Xi'an Jiaotong University!
+  
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.08 - now*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021.09 - 2024.07*, B.S. in Engineering, Automation, Faculty of Electronics and Information Engineering, Xi'an Jiaotong University.
+- *2020.10 - 2024.05*, Dual B.S. in Manangement, Accounting(ACCA Track), School of Management, Xi'an Jiaotong University.
+- *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
+- *2023.02 - 2023.06*, Funded Exchange Student, Department of Electrical and Electronic Engineering, the University of Hong Kong.
+- *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *202x.xx*, maybe later
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *202x.xx - 202x.xx*, maybe later
