@@ -33,7 +33,7 @@ My research interest lies in Human-Centric AI.
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-
+- [UAV swarm positioning and scheduling method from the perspective of pure orientation passive positioning](https://ieeexplore.ieee.org/document/10082189), **Wenshuo ZHANG**, Wenhan ZHANG, Xian WANG, **ITNEC 2023**
 
 # 🎖 Selected Honors and Awards
 - *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
