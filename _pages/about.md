@@ -17,14 +17,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in HKUST VisLab, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Huamin Qu.       
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtain a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to Department of Electrical and Electronic Engineering in the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan Qi there.    
+
+My research interest lies in Human-Centric AI. 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s $1m Grant! Congratulations wenshuo(yeah this is me), teammates( jindu, haobo) and PI(linping, jun)!
+- *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
+- *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Automation, the Department of Electronic and Information Engineering, XJTU!
+- *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Accounting (ACCA Track), the Management School, XJTU!
 
 # 📝 Publications 
 
