@@ -49,7 +49,7 @@ My research interest lies in Human-Centric AI.
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
 # 💬 Invited Talks
-- *202x.xx*, maybe later
+- *2024.08 - now*, you can get my reading notes from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
 
 # 💻 Internships
 - *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
