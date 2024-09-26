@@ -50,6 +50,7 @@ My research interest lies in Human-Centric AI.
 
 # 💬 Invited Talks
 - *2024.08 - now*, you can get my reading notes from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
+- *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf).
 
 # 💻 Internships
 - *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
