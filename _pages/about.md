@@ -45,7 +45,6 @@ My research interest lies in Human-Centric AI.
 - *2024.08 - now*, Ph.D. Student, CSE Department, the Hong Kong University of Science and Technology. 
 - *2021.09 - 2024.07*, B.S. in Engineering, Automation, Faculty of Electronics and Information Engineering, Xi'an Jiaotong University.
 - *2020.10 - 2024.05*, Dual B.S. in Manangement, Accounting(ACCA Track), School of Management, Xi'an Jiaotong University.
-- *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
 - *2023.02 - 2023.06*, Funded Exchange Student, Department of Electrical and Electronic Engineering, the University of Hong Kong.
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
@@ -53,4 +52,4 @@ My research interest lies in Human-Centric AI.
 - *202x.xx*, maybe later
 
 # 💻 Internships
-- *202x.xx - 202x.xx*, maybe later
+- *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
