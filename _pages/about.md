@@ -19,7 +19,7 @@ redirect_from:
 
 Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in HKUST VisLab, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Huamin Qu and work with Dr.Linping Yuan.       
 
-Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtain a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FPY supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to Department of Electrical and Electronic Engineering in the University of Hong Kong as a government-sponsored exchange student.    
+Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtain a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FPY supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to Department of Electrical and Electronic Engineering in the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan QI there.    
 
 My research interest lies in Human-Centric AI. 
 
@@ -37,6 +37,7 @@ My research interest lies in Human-Centric AI.
 
 # 🎖 Selected Honors and Awards
 - *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
+- *2020 - 2024* Excellent Student Cadre in 2021, Outstanding Student in 2022 and 2023, Outstanding Graduate Student in 2024. All in Xi'an Jiaotong University!
 - *2023.05* Fung Scholar and Fung Scholarship (Together with World Level University Students like MIT), the University of Hong Kong!
 - *2023.05* First Prize of National University Student Mathematical Modeling Competition in Shaanxi Competition Region, Xi'an Jiaotong University!
 - *2021.09* Jianbing Alumni Inspirational Scholarship (Top 2 out of over 300 people), Xi'an Jiaotong University!
