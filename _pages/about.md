@@ -50,7 +50,7 @@ My research interest lies in Human-Centric AI.
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
 # 💬 Invited Talks
-- *2024.08 - now*, you can get my reading notes from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
+- *2024.08 - now*, you can get my reading notes in chinese from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
 - *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf).
 
 # 💻 Internships
