@@ -42,7 +42,8 @@ My research interest lies in Human-Centric AI.
 [Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
 
 - The project seeks to transform traditional RES modeling by creating an accurate, flexible, and user-friendly digital twin of the Guangdong-Hong Kong-Macao Bay Area. Integrating real-time data from various sectors, it provides a detailed view of the renewable energy system. We are developing an immersive analytics system for seamless interaction, enabling users to extract valuable insights. This supports informed decision-making for sustainable development, focusing on disaster prevention and enhancing urban planning, resource management, and environmental policy, benefiting millions in the region. 
-- We are hiring! If you are interested in this project, please send email to [vislab hiring](vislab-hiring@outlook.com)
+- We are hiring! If you are interested in this project, please send email to vislab-hiring@outlook.com and check [Linping YUAN's Webpage](https://yuanlinping.top/).
+
 </div>
 </div>
 
