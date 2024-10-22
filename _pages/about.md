@@ -35,6 +35,16 @@ My research interest lies in Human-Centric AI.
 # 📝 Publications 
 - [UAV swarm positioning and scheduling method from the perspective of pure orientation passive positioning](https://ieeexplore.ieee.org/document/10082189), **Wenshuo ZHANG**, Wenhan ZHANG, Xian WANG, **ITNEC 2023**
 
+# 👨‍🏭 Projects
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AoE Digital Twin</div><img src='images/AoE.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
+
+- The project aims to revolutionize traditional RES modeling by creating an accurate and flexible, user-friendly digital representation of the real world. By integrating real-time data from different sectors, the project will provide a comprehensive and accurate representation of the renewable energy system in the Guangdong-Hong Kong-Macao Bay Area. Our team is developing an immersive visualization and analytics system that enables users to seamlessly interact with the digital twin and effectively extract knowledge and insights from complex data. This enables decision makers to gain a comprehensive understanding of GBA's earth system dynamics, so they can make informed decisions for sustainable growth and development. With a special focus on disaster prevention and mitigation, the project has the potential to transform urban planning, resource management and environmental policy, ultimately improving the lives of millions of people in the region.
+</div>
+</div>
+
 # 🎖 Selected Honors and Awards
 - *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
 - *2020 - 2024* Excellent Student Cadre in 2021, Outstanding Student in 2022 and 2023, Outstanding Graduate Student in 2024. All in Xi'an Jiaotong University!
