@@ -25,6 +25,7 @@ My research interest lies in Human-Centric AI.
 
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 One Cooperation paper submitted to CSCW 2025, Thanks to my coauthors!
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates( jindu, haobo) and PI(linping, jun)!
 - *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
 - *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Automation, the Department of Electronic and Information Engineering, XJTU!
@@ -46,6 +47,17 @@ My research interest lies in Human-Centric AI.
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Digital Campus of HKUST</div><img src='images/DigitalCampus.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Hong Kong University of Science and Technology Digital Twin Smart Campus](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
+
+- The project aims to create a comprehensive digital twin platform that integrates diverse data on campus, aiming to enhance the convenience and interactivity of campus life for students and faculty. The project monitors crowd dynamics and facility status in real time while ensuring user privacy through core features such as augmented reality exploration, gamified sustainability, social interaction and smart navigation. The platform integrates cafeteria information, course scheduling, activity information, social assistance, and environmental data monitoring, and provides data support for campus management through mobile apps, VR, and large-screen displays to create an intelligent and efficient learning and living environment.
+
+</div>
+</div>
+
 
 # 🎖 Selected Honors and Awards
 - *2024.08* Post Graduate Studentship(PGS), the Hong Kong University of Science and Technology!
