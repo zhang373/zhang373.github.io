@@ -48,7 +48,7 @@ My research interest lies in Human-Centric AI.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Digital Campus of HKUST</div><img src='images/DigitalCampus.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Digital Campus of HKUST</div><img src='images/DigitalCampus.png' alt="sym" width="100%" height="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The Hong Kong University of Science and Technology Digital Twin Smart Campus](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
