@@ -21,7 +21,7 @@ Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in H
 
 Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtain a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FYP supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to Department of Electrical and Electronic Engineering in the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan QI there.    
 
-My research interest lies in **Human-Centric AI** that leverages **Natural Language Processing** to enhance **Human-Computer Interaction**. 
+My research interest lies in leveraging **"Natural Language Processing"** to build **"Human-Centric AI"** for better **"Human-Computer Interaction"**. 
 
 
 # 🔥 News
