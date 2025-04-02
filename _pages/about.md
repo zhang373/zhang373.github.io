@@ -25,7 +25,9 @@ My research interest lies in leveraging **"Natural Language Processing"** to bui
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 One Cooperation paper submitted to CSCW 2025, Thanks to my coauthors!
+- *2024.10*: &nbsp;🎉🎉 One first author paper submitted to UIST 2025, Thanks to my coauthors!
+- *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to UIST 2025, Thanks to my coauthors!
+- *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors!
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
 - *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
 - *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Automation, the Department of Electronic and Information Engineering, XJTU!
