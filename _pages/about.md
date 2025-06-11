@@ -17,17 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in HKUST VisLab, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Huamin Qu and work with Dr.Linping Yuan.       
+Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in HKUST VisLab, at the Department of Computer Science and Engineering of the Hong Kong University of Science and Technology (HKUST), supervised by Prof. Huamin Qu and working with Dr.Linping Yuan.       
 
-Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtain a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FYP supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to Department of Electrical and Electronic Engineering in the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan QI there.    
+Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtained a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FYP supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to the Department of Electrical and Electronic Engineering at the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan QI there.    
 
-My research interest lies in leveraging **"Natural Language Processing"** to build **"Human-Centric AI"** to **Make the Impossible Possible and the Possible Easy**. 
+My research interest lies in **Human LLM Alignment in Multi-round Dialog System**, including (1) Regularizing users' input to meet LLM input needs, (2) post-training LLM to overcome users' shortage, and (3) data augmentation and evaluation to support both sides. If you are interested in cooperating with me, feel free to drop me an email. Let's go together to **Make the Impossible Possible and the Possible Easy**. 
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 One cooperation short paper submitted to CSCW 2025, Thanks to my coauthors!
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors!
-- *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors!
+- *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
 - *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
 - *2024.07*: &nbsp;🎉🎉 I got my B.S. degree in Automation, the Department of Electronic and Information Engineering, XJTU!
@@ -76,7 +75,7 @@ My research interest lies in leveraging **"Natural Language Processing"** to bui
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
 # 💬 Invited Talks
-- *2024.08 - now*, you can get my reading notes in chinese from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
+- *2024.08 - now*, you can get my reading notes in Chinese from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
 - *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf). Updated [version](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_updataed.pdf) for VisLab sharing in 2024.12.10
 
 # 💻 Internships
