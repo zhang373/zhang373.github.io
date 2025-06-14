@@ -35,7 +35,7 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog System*
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-- [UAV swarm positioning and scheduling method from the perspective of pure orientation passive positioning](https://ieeexplore.ieee.org/document/10082189), **Wenshuo ZHANG**, Wenhan ZHANG, Xian WANG, **ITNEC 2023**
+- In submission.
 
 # 👨‍🏭 Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AoE Digital Twin</div><img src='images/AoE.jpg' alt="sym" width="100%"></div></div>
