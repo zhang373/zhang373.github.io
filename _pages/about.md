@@ -101,7 +101,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 - *2025.07*, Guest Talk on Cutting-edge Paper Sharing session in ChinaVis 2025, [NeuroSync: How to do better intent-aware coding by chatting with LLM](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf).
 - *2025.05*, Sharing in EMIA 6500K, [ML Based Large-Scale Scientific Data Compression for Interactive VR Game Creation](docs/SciVis_data_compression_WenshuoZHANG.pdf).
 - *2025.03*, Sharing in EMIA 6500K, Vislab and COMP 6411 C, [Image Editing with New Content Created by Interactive Generation Model](docs/Visual_editing_wenshuo.pdf).
-- *2024.08 - now*, you can get my reading notes in Chinese from [Coding Parers in CHI/UIST-22/23/24](https://xahbo6vo07y.feishu.cn/mindnotes/N2KHbYslpmdWGQn2P64c1plrnOe?from=from_copylink), [Ambiguity and intent in ACLs/ICLRs](https://xahbo6vo07y.feishu.cn/mindnotes/NBpAbaf8omoZUTnAjLOc59TRn7c?from=from_copylink)
+- *2025.01*, you can get my reading notes in Chinese from [Coding Parers in CHI/UIST-22/23/24](https://xahbo6vo07y.feishu.cn/mindnotes/N2KHbYslpmdWGQn2P64c1plrnOe?from=from_copylink), [Ambiguity and intent in ACLs/ICLRs](https://xahbo6vo07y.feishu.cn/mindnotes/NBpAbaf8omoZUTnAjLOc59TRn7c?from=from_copylink)
 - *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf). Updated [version](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_updataed.pdf) for VisLab sharing in 2024.12.10
 
 # 💻 Internships
