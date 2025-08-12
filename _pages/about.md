@@ -98,6 +98,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 
 # 💬 Invited Talks
 - *2025.10*, Oral session in UIST 2025, [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf). 
+- *2025.09*, Guest Talk in National Souel University on [NeuroSync](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf) and [Branch Explorer](https://arxiv.org/abs/2507.09959) under the guidance of [Shuchang Xu](https://shuchangxu.github.io/).
 - *2025.07*, Guest Talk on Cutting-edge Paper Sharing session in ChinaVis 2025, [NeuroSync: How to do better intent-aware coding by chatting with LLM](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf).
 - *2025.05*, Sharing in EMIA 6500K, [ML Based Large-Scale Scientific Data Compression for Interactive VR Game Creation](https://github.com/zhang373/zhang373.github.io/blob/main/docs/SciVis_data_compression_WenshuoZHANG.pdf).
 - *2025.03*, Sharing in EMIA 6500K, Vislab and COMP 6411 C, [Image Editing with New Content Created by Interactive Generation Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Visual_editing_wenshuo.pdf).
