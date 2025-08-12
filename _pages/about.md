@@ -99,8 +99,8 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 # 💬 Invited Talks
 - *2025.10*, Oral session in UIST 2025, [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf). 
 - *2025.07*, Guest Talk on Cutting-edge Paper Sharing session in ChinaVis 2025, [NeuroSync: How to do better intent-aware coding by chatting with LLM](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf).
-- *2025.05*, Sharing in EMIA 6500K, [ML Based Large-Scale Scientific Data Compression for Interactive VR Game Creation](docs/SciVis_data_compression_WenshuoZHANG.pdf).
-- *2025.03*, Sharing in EMIA 6500K, Vislab and COMP 6411 C, [Image Editing with New Content Created by Interactive Generation Model](docs/Visual_editing_wenshuo.pdf).
+- *2025.05*, Sharing in EMIA 6500K, [ML Based Large-Scale Scientific Data Compression for Interactive VR Game Creation](https://github.com/zhang373/zhang373.github.io/blob/main/docs/SciVis_data_compression_WenshuoZHANG.pdf).
+- *2025.03*, Sharing in EMIA 6500K, Vislab and COMP 6411 C, [Image Editing with New Content Created by Interactive Generation Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Visual_editing_wenshuo.pdf).
 - *2025.01*, you can get my reading notes in Chinese from [Coding Parers in CHI/UIST-22/23/24](https://xahbo6vo07y.feishu.cn/mindnotes/N2KHbYslpmdWGQn2P64c1plrnOe?from=from_copylink), [Ambiguity and intent in ACLs/ICLRs](https://xahbo6vo07y.feishu.cn/mindnotes/NBpAbaf8omoZUTnAjLOc59TRn7c?from=from_copylink)
 - *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf). Updated [version](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_updataed.pdf) for VisLab sharing in 2024.12.10
 
@@ -113,5 +113,5 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 - **2025** Teaching Assistant in COMP 1029C: C Programming Bridging Course, HKUST 
 - **2025** Reviewer for CHI 2025 Late Breaking Work
 
-You can find my CV [here](docs/CV_WenshuoZhang_HKUST_CSE_PhD_Intern.pdf), website and CV updated in 2025.07
+You can find my CV [here](https://github.com/zhang373/zhang373.github.io/blob/main/docs/CV_WenshuoZhang_HKUST_CSE_PhD_Intern.pdf), website and CV updated in 2025.07
 
