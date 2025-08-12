@@ -36,7 +36,29 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agent
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-- In submission.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://arxiv.org/abs/2508.02823)
+
+**Wenshuo Zhang**, Leixian Shen, Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Linping Yuan
+
+[**Website**](https://zhang373.github.io/NeuroSync_Web/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We found that bidirectional ambiguity is one important reason why misalignment occurs and propose direct intent–task matching through manipulating LLM's internal understanding to overcome it. NeuroSync, as a PoC system, allows a user to directly manipulate a visual task graph on two levels via the user interface to correct an LLM's understanding before code generation. This interaction is kept responsive by a lightweight distillation pipeline, which fine-tunes a small model using data from a multi-agent system that simulates user behavior. To manage cognitive load, an intent-aware graph simplification algorithm dynamically collapses and highlights parts of the graph based on the user's focus.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Branch Explorer: Leveraging Branching Narratives to Support Interactive 360° Video Viewing for Blind and Low Vision Users](https://arxiv.org/abs/2507.09959)
+
+Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
+
+[**Video**](https://youtu.be/AW8jinSEehI) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+</div>
+</div>
+
 
 # 👨‍🏭 Projects
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AoE Digital Twin</div><img src='images/AoE.jpg' alt="sym" width="100%"></div></div>
