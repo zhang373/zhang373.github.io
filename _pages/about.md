@@ -21,10 +21,11 @@ Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in H
 
 Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, Xi'an Jiaotong University, FYP supervised by Prof. Lei CHEN and Dr. Zhao CHEN at HKUST Guangzhou in 2024. I also obtained a dual Bachelor's degree in Accounting (ACCA Track), the Management School, Xi'an Jiaotong University, FYP supervised by Prof. Hong ZHAO in 2024. During my UG study, I went to the Department of Electrical and Electronic Engineering at the University of Hong Kong as a government-sponsored exchange student and worked with Prof. Xiaojuan QI there.    
 
-My research interest lies in **Human LLM Alignment in Multi-round Dialog System**, including (1) Regularizing users' input to meet LLM input needs, (2) post-training LLM to overcome users' shortage, and (3) data augmentation and evaluation to support both sides. If you are interested in cooperating with me, feel free to drop me an email. Let's go together to **Make the Impossible Possible and the Possible Easy**. 
+My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agentic System**, including (1) accessing LLM's internal pattern to regularize users' behaviours to meet LLM input needs, (2) learning and modeling users' behaviours to do post-training on LLM to overcome users' shortages, and (3) data augmentation and evaluation to support the bidirectional alignment. If you are interested in cooperating with me, feel free to drop me an email. Let's go together to **Make the Impossible Possible and the Possible Easy**. 
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 Two papers accepted in UIST 2025, Thanks to my coauthors!
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors!
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
@@ -44,7 +45,7 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog System*
 [Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
 
 - The project seeks to transform traditional RES modeling by creating an accurate, flexible, and user-friendly digital twin of the Guangdong-Hong Kong-Macao Bay Area. Integrating real-time data from various sectors, it provides a detailed view of the renewable energy system. We are developing an immersive analytics system for seamless interaction, enabling users to extract valuable insights. This supports informed decision-making for sustainable development, focusing on disaster prevention and enhancing urban planning, resource management, and environmental policy, benefiting millions in the region. 
-- We are hiring! If you are interested in this project, please send email to vislab-hiring@outlook.com and check [Linping YUAN's Webpage](https://yuanlinping.top/).
+- Responsible for part "Neuro Network and Distillation Based Ocean Data Compression for Visualization Acceleration". Developed a machine learning-based compression framework to enable real-time, interactive VR visualization of large-scale scientific data. This innovation addressed significant latency issues by compressing daily data files from over 6 GB to a highly efficient 6.75 MB model, reducing data processing and rendering time to just 0.75 seconds on Nvidia 3070.
 
 </div>
 </div>
