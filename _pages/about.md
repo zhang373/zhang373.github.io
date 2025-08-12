@@ -36,19 +36,18 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agent
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/NeuroSync.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://arxiv.org/abs/2508.02823)
 
 **Wenshuo Zhang**, Leixian Shen, Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Linping Yuan
 
-[**Website**](https://zhang373.github.io/NeuroSync_Web/) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- We found that bidirectional ambiguity is one important reason why misalignment occurs and propose direct intent–task matching through manipulating LLM's internal understanding to overcome it. NeuroSync, as a PoC system, allows a user to directly manipulate a visual task graph on two levels via the user interface to correct an LLM's understanding before code generation. This interaction is kept responsive by a lightweight distillation pipeline, which fine-tunes a small model using data from a multi-agent system that simulates user behavior. To manage cognitive load, an intent-aware graph simplification algorithm dynamically collapses and highlights parts of the graph based on the user's focus.
+[**Website**](https://zhang373.github.io/NeuroSync_Web/) 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/BranchExplore.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Branch Explorer: Leveraging Branching Narratives to Support Interactive 360° Video Viewing for Blind and Low Vision Users](https://arxiv.org/abs/2507.09959)
@@ -66,7 +65,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 
 [Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
 
-- The project seeks to transform traditional RES modeling by creating an accurate, flexible, and user-friendly digital twin of the Guangdong-Hong Kong-Macao Bay Area. Integrating real-time data from various sectors, it provides a detailed view of the renewable energy system. We are developing an immersive analytics system for seamless interaction, enabling users to extract valuable insights. This supports informed decision-making for sustainable development, focusing on disaster prevention and enhancing urban planning, resource management, and environmental policy, benefiting millions in the region. 
+- 60 million HKD form RGC@HK, 1.4 million for us
 - Responsible for part "Neuro Network and Distillation Based Ocean Data Compression for Visualization Acceleration". Developed a machine learning-based compression framework to enable real-time, interactive VR visualization of large-scale scientific data. This innovation addressed significant latency issues by compressing daily data files from over 6 GB to a highly efficient 6.75 MB model, reducing data processing and rendering time to just 0.75 seconds on Nvidia 3070.
 
 </div>
