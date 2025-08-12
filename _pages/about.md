@@ -96,13 +96,19 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 - *2023.02 - 2023.06*, Funded Exchange Student, Department of Electrical and Electronic Engineering, the University of Hong Kong.
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
-# 💬 Invited Talks
+# 💬 Invited Talks-
+- *2025.10*, Oral session in UIST 2025, NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification. \textbf{\textit{UIST 2025, South Korea}}}
+- *2025.07*, Guest Talk on Cutting-edge Paper Sharing session in ChinaVis 2025, NeuroSync: How to do better intent-aware coding by chatting with LLM. \textbf{\textit{ChinaVis 2025, China}}}
 - *2024.08 - now*, you can get my reading notes in Chinese from [Wenshuo's Reading Posts](https://www.zhihu.com/people/ha-ha-ha-67-6/posts)
 - *2023.11*, Share in Med Data Lab at HKUSTGZ about [Diffusion Model](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_wenshuo.pdf). Updated [version](https://github.com/zhang373/zhang373.github.io/blob/main/docs/Diffusion_updataed.pdf) for VisLab sharing in 2024.12.10
 
 # 💻 Internships
+- *2025.11 - now*, Intern, AI for Science Project, Solution Architecture Team, Nvidia, Science Park, Hong Kong.
 - *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
 
 # 💬 Academic and Teaching Services
 - **2025** Teaching Assistant in (COMP 1029C) C Programming Bridging Course, HKUST 
 - **2025** Reviewer for CHI 2025 Late Breaking Work
+
+You can find my CV [here](docs/CV_WenshuoZhang_HKUST_CSE_PhD_Intern.pdf), website and CV updated in 2025.07
+
