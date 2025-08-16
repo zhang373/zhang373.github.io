@@ -63,7 +63,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AoE Digital Twin</div><img src='images/AoE.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
+[Guangdong-Hong Kong-Macao Great Bay Area Regional Earth System Digital Twin Project](https://earthhk.hkust.edu.hk/home)
 
 - 60 million HKD form RGC@HK, 1.4 million for us
 - Responsible for part "Neuro Network and Distillation Based Ocean Data Compression for Visualization Acceleration". Developed a machine learning-based compression framework to enable real-time, interactive VR visualization of large-scale scientific data. This innovation addressed significant latency issues by compressing daily data files from over 6 GB to a highly efficient 6.75 MB model, reducing data processing and rendering time to just 0.75 seconds on Nvidia 3070.
@@ -74,7 +74,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Digital Campus of HKUST</div><img src='images/DigitalCampus.png' alt="sym" width="100%" height="60%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[The Hong Kong University of Science and Technology Digital Twin Smart Campus](https://mp.weixin.qq.com/s/ghdBcgAd1y-rqB4GLlanWQ)
+[The Hong Kong University of Science and Technology Digital Twin Smart Campus](https://pulse.ust.hk/)
 
 - The project aims to create a comprehensive digital twin platform that integrates diverse data on campus, aiming to enhance the convenience and interactivity of campus life for students and faculty. The project monitors crowd dynamics and facility status in real time while ensuring user privacy through core features such as augmented reality exploration, gamified sustainability, social interaction and smart navigation. The platform integrates cafeteria information, course scheduling, activity information, social assistance, and environmental data monitoring, and provides data support for campus management through mobile apps, VR, and large-screen displays to create an intelligent and efficient learning and living environment.
 
