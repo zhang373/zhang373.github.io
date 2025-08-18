@@ -110,7 +110,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 - *2023.09 - 2024.02*, Funded Research Intern, Data Science and Analyze, Information Hub, the Hong Kong University of Science and Technology Guangzhou.
 
 # 💬 Academic and Teaching Services
-- **2025** Teaching Assistant in COMP 6411D: Data Visualization, HKUST 
+- **2025** Teaching Assistant in COMP TBD, HKUST 
 - **2025** Teaching Assistant in COMP 1029C: C Programming Bridging Course, HKUST 
 - **2025** Reviewer for CHI 2025 Late Breaking Work
 
