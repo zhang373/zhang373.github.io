@@ -25,8 +25,7 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agent
 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 Two papers accepted in UIST 2025, Thanks to my coauthors!
-- *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors!
+- *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
 - *2024.08*: &nbsp;🎉🎉 I went to HKUST as a year one Ph.D. student. Hope to see you guys!
