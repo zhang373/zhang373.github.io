@@ -27,7 +27,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper **`Honorable Mention Award`**!
+- *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper `🎖️Honorable Mention Award`!
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
@@ -44,7 +44,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://arxiv.org/abs/2508.02823)
 
 **Wenshuo Zhang**, Leixian Shen, Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Linping Yuan    
-**`Honorable Mention Award`**
+**🎖️Honorable Mention Award**
 
 [**Website**](https://zhang373.github.io/NeuroSync_Web/) 
 </div>
