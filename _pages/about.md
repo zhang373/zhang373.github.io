@@ -21,10 +21,13 @@ Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in H
 
 Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), FYP supervised by [Prof. Lei CHEN](https://seng.hkust.edu.hk/about/people/faculty/lei-chen) and [Dr. Zhao CHEN](https://scholar.google.com/citations?user=hx6qq5QAAAAJ&hl=en) at [HKUST Guangzhou](https://www.hkust-gz.edu.cn/) in 2024. I also obtained a dual Bachelor's degree in Accounting (ACCA Track), the Management School, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), FYP supervised by [Prof. Hong ZHAO](https://som.xjtu.edu.cn/en/info/1112/1146.htm) in 2024. During my UG study, I went to the Department of Electrical and Electronic Engineering at [the University of Hong Kong](https://www.hku.hk/) as a government-sponsored exchange student and worked with [Prof. Xiaojuan QI](https://xjqi.github.io/) there.    
 
-My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agentic System**, including (1) accessing LLM's internal pattern to regularize users' behaviours to meet LLM input needs, (2) learning and modeling users' behaviours to do post-training on LLM to overcome users' shortages, and (3) data augmentation and evaluation to support the bidirectional alignment. If you are interested in cooperating with me, feel free to drop me an email. Let's go together to **Make the Impossible Possible and the Possible Easy**. 
+My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agentic System**, including (1) accessing LLM's internal pattern to regularize users' behaviours to meet LLM input needs, (2) learning and modeling users' behaviours to do post-training on LLM to overcome users' shortages, and (3) data augmentation and evaluation to support the bidirectional alignment. 
+
+I am actively looking for Research Intern Positions in the United States, Mainland China, and Hong Kong. I am also looking for Academic Cooperation! Let's go together to **Make the Impossible Possible and the Possible Easy**. 
 
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper `Honorable Mention Award`!
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
 - *2024.09*: &nbsp;🎉🎉 We get Prof. Gan’s follwing up $1m Grant! Congratulations wenshuo(yeah this is me), teammates(jindu, haobo) and PI(Dr.Linping YUAN and Dr.Jun HAN)!
@@ -35,18 +38,19 @@ My research interest lies in **Human LLM Alignment in Multi-round Dialog / Agent
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/NeuroSync.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025 (CCF-A)</div><img src='images/NeuroSync.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://arxiv.org/abs/2508.02823)
 
 **Wenshuo Zhang**, Leixian Shen, Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Linping Yuan
+`Honorable Mention Award`
 
 [**Website**](https://zhang373.github.io/NeuroSync_Web/) 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025</div><img src='images/BranchExplore.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025 (CCF-A)</div><img src='images/BranchExplore.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Branch Explorer: Leveraging Branching Narratives to Support Interactive 360° Video Viewing for Blind and Low Vision Users](https://arxiv.org/abs/2507.09959)
