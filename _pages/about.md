@@ -39,6 +39,17 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/Fig2_v4.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[IntE: Quantitative Framework for Qualitative Data Evaluation via Distributional Mining](TBD)
+
+**Under Review**
+
+[**Website**](TBD) 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025 (CCF-A)</div><img src='images/NeuroSync.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
