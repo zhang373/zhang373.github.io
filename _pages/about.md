@@ -27,7 +27,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to ICLR 2026, Thanks to my coauthors!
+- *2025.09*: &nbsp;🎉🎉 One cooperation paper and two first-author paper submitted to ICLR 2026 (2) and CHI 2026 (1), Thanks to my coauthors!
 - *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper `🎖️Honorable Mention Award`! It is the first in Hong Kong and the third in China.
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
