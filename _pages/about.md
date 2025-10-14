@@ -103,6 +103,7 @@ Shuchang Xu, Xiaofu Jin, **Wenshuo Zhang**, Huamin Qu, Yukang Yan
 - *2020.09 - 2021.07*, Computational Finance, School of Economics and Finance, Xi'an Jiaotong University.
 
 # 💬 Invited Talks
+- *2025.10*, Invited Talk in [Korea Advanced Institute of Science and Technology](https://www.kaist.ac.kr/en/html/kaist/01.html), [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf). 
 - *2025.10*, Oral session in [UIST 2025](https://uist.acm.org/2025/), [NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf). 
 - *2025.09*, Guest Talk in [Souel National University](https://en.snu.ac.kr/) on [NeuroSync](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf) and [Branch Explorer](https://arxiv.org/abs/2507.09959) under the guidance of [Shuchang Xu](https://shuchangxu.github.io/).
 - *2025.07*, Guest Talk on Cutting-edge Paper Sharing session in [ChinaVis 2025](https://chinavis.org/2025/en/), [NeuroSync: How to do better intent-aware coding by chatting with LLM](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/ER6Km4ctdbhHlYRitqsnVi0BMMVJjw1CzoXYasevbiEL2w?e=tFuKBf).
