@@ -27,7 +27,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 One cooperation paper and two first-author paper submitted to ICLR 2026 (2) and CHI 2026 (1), Thanks to my coauthors!
+- *2025.09*: &nbsp;🎉🎉 Two cooperation paper and one first-author paper submitted to ICLR 2026 (2) and CHI 2026 (1), Thanks to my coauthors!
 - *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper `🎖️Honorable Mention Award`! It is the first in Hong Kong and the third in China.
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
@@ -39,16 +39,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 - *2023.02*: &nbsp;🎉🎉 I start my journey in HKU as an exchange student!
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='images/Fig3_v3.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[IntE: Quantitative Framework for Qualitative Data Evaluation via Distributional Mining](TBD)
-
-**Under Review**
-
-[**Website**](TBD) 
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">UIST 2025 (CCF-A)</div><img src='images/NeuroSync.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
