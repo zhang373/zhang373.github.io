@@ -47,8 +47,8 @@ A Survey on LLM-Based Multi-Agent Workflow Automation (MAWA): Methods, Taxonomie
 
 **Wenshuo Zhang**, Huamin Qu 
 
-[**Slides**](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/IQC-np-5BQn4SbALLvQgS9fxAUm9U8NI8egzrYehY1L5OnE?e=XkUNcT) 
-[**PDF**](https://hkustconnect-my.sharepoint.com/:b:/g/personal/wzhangeb_connect_ust_hk/IQA20E8X6mRmTqoFRwojjl-bAVtNf7eXUq795vMz8oKTtt8?e=eei2FL) 
+[**Slides**](https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/IQC-np-5BQn4SbALLvQgS9fxAUm9U8NI8egzrYehY1L5OnE?e=XkUNcT)     
+[**PDF**](https://hkustconnect-my.sharepoint.com/:b:/g/personal/wzhangeb_connect_ust_hk/IQA20E8X6mRmTqoFRwojjl-bAVtNf7eXUq795vMz8oKTtt8?e=eei2FL)      
 </div>
 </div>
 
