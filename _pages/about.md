@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. student in HKUST [VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by [Prof. Huamin Qu](http://www.huamin.org/) and working with [Dr.Linping Yuan](https://yuanlinping.top/).       
+Nice to meet you! I am Wenshuo ZHANG (张文硕), currently a Ph.D. candidate in HKUST [VisLab](http://vis.cse.ust.hk/), at the Department of Computer Science and Engineering of the [Hong Kong University of Science and Technology (HKUST)](https://hkust.edu.hk/), supervised by [Prof. Huamin Qu](http://www.huamin.org/) and working with [Dr.Linping Yuan](https://yuanlinping.top/).       
 
 Before joining HKUST, I obtained my B.S. degree in Automation, the Department of Electronic and Information Engineering, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), FYP supervised by [Prof. Lei CHEN](https://seng.hkust.edu.hk/about/people/faculty/lei-chen) and [Dr. Zhao CHEN](https://scholar.google.com/citations?user=hx6qq5QAAAAJ&hl=en) at [HKUST Guangzhou](https://www.hkust-gz.edu.cn/) in 2024. I also obtained a dual Bachelor's degree in Accounting (ACCA Track), the Management School, [Xi'an Jiaotong University](http://en.xjtu.edu.cn/), FYP supervised by [Prof. Hong ZHAO](https://som.xjtu.edu.cn/en/info/1112/1146.htm) in 2024. During my UG study, I went to the Department of Electrical and Electronic Engineering at [the University of Hong Kong](https://www.hku.hk/) as a government-sponsored exchange student and worked with [Prof. Xiaojuan QI](https://xjqi.github.io/) there.    
 
@@ -27,7 +27,8 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 
 
 # 🔥 News
-- *2025.09*: &nbsp;🎉🎉 Two cooperation paper and one first-author paper submitted to ICLR 2026 (2) and CHI 2026 (1), Thanks to my coauthors!
+- *2025.12*: &nbsp;🎉🎉 I passed my Ph.D. Qualifying Exam, now I am a Ph.D. candidate!
+- *2025.09*: &nbsp;🎉🎉 Two cooperation papers and one first-author paper submitted to ICLR 2026 (2) and CHI 2026 (1), Thanks to my coauthors!
 - *2025.09*: &nbsp;🎉🎉 NeuroSync gets UIST 2025 Best Paper `🎖️Honorable Mention Award`! It is the first in Hong Kong and the third in China.
 - *2025.04*: &nbsp;🎉🎉 One cooperation paper and one first-author paper submitted to UIST 2025, Thanks to my coauthors! **They are both accepted!**
 - *2024.10*: &nbsp;🎉🎉 One cooperation paper submitted to CSCW 2025, Thanks to my coauthors! Resubmitted to CSCW 2026 as short paper.
