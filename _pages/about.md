@@ -44,7 +44,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PQE Exam</div><img src='images/PQE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Survey on LLM-Based Multi-Agent Workflow Automation (MAWA): Methods, Taxonomies, and Future Directions](https://hkustconnect-my.sharepoint.com/:b:/g/personal/wzhangeb_connect_ust_hk/IQA20E8X6mRmTqoFRwojjl-bAVtNf7eXUq795vMz8oKTtt8?e=eei2FL)
+[A Survey on LLM-Based Multi-Agent Workflow Automation (MAWA): Methods, Taxonomies, and Future Directions](https://hkustconnect-my.sharepoint.com/:b:/g/personal/wzhangeb_connect_ust_hk/IQA20E8X6mRmTqoFRwojjl-bAYFac2dOXkWWERwMO_2r6a8?e=GyqPNs)
 
 **Wenshuo Zhang**, Huamin Qu 
 
