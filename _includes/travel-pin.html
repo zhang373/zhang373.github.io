@@ -1,0 +1,9 @@
+{%- assign t = include.t -%}
+<button type="button" class="tmap-pin{% if t.kind %} is-{{ t.kind }}{% endif %}" style="left: {{ include.left }}%; top: {{ include.top }}%;" aria-label="{{ t.name }}">
+<span class="tmap-dot">{% if t.kind == 'home' %}&#127968;{% elsif t.kind == 'phd' %}&#127891;{% endif %}</span>
+<span class="tmap-pop">
+<img src="{{ t.photo | prepend: '/images/visit-images/' | relative_url }}" alt="{{ t.name }}" loading="lazy" onerror="this.style.display='none'">
+<strong>{{ t.name }}</strong>
+{%- if t.note %}<em>{{ t.note }}</em>{% endif %}
+</span>
+</button>

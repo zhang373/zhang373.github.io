@@ -329,6 +329,52 @@ a.inline-logo {
 }
 
 /* ---------- Home page: cards that lead to the other pages ---------- */
+.explore-fun {
+    margin: 1.2em 0 0.8em;
+    font-size: 1.05em;
+    font-weight: 700;
+    text-align: left;
+    color: $hp-link;
+}
+
+// image + hint side by side, aligned left; the picture is as tall as the cards above (about 94px)
+.travel-row {
+    display: flex;
+    align-items: center;
+    gap: 0.9em;
+    margin: 0 0 2em;
+}
+a.travel-entry {
+    position: relative;
+    flex: 0 0 auto;
+    display: block;
+    width: 94px;
+    height: 94px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    &:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); }
+    .travel-entry-label {
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        padding: 0 0.5em;
+        border-radius: 999px;
+        font-size: 0.7em;
+        font-weight: 700;
+        color: #fff;
+        background: rgba(0, 54, 159, 0.88);
+    }
+}
+.travel-entry-hint {
+    margin: 0;
+    font-size: 0.85em;
+    color: $hp-muted;
+}
+
 .explore-intro {
     margin: 0.4em 0 1em;
     color: $hp-muted;
@@ -370,6 +416,168 @@ a.explore-card {
     font-weight: 700;
     border-bottom: 2px solid $hp-accent;
 }
+
+/* ---------- Travel: world map with photo pins ---------- */
+.tmap {
+    position: relative;
+    width: 100%;
+    padding-top: 39.44%; // 142 / 360, matches images/world-map.svg
+    margin: 1em 0 0.5em;
+    border: 1px solid $hp-line;
+    border-radius: 6px;
+    background: #fafbfd;
+    overflow: hidden;
+    cursor: grab;
+    touch-action: none;   // we handle drag and pinch ourselves
+    --inv: 1;
+
+    &.is-dragging { cursor: grabbing; }
+    &.is-dragging .tmap-pin { pointer-events: none; }
+}
+
+.tmap-stage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0 0;
+}
+
+.tmap-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+// pins sit inside the scaled stage: counter-scale them so they stay the same size on screen
+.tmap-pin {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    z-index: 2;
+    transform: scale(var(--inv));
+    transform-origin: 0 0;
+
+    &:hover, &:focus, &.is-open { z-index: 20; outline: none; }
+}
+
+.tmap-dot {
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: $hp-accent;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    transition: transform 0.15s ease;
+}
+.tmap-pin:hover .tmap-dot,
+.tmap-pin:focus .tmap-dot,
+.tmap-pin.is-open .tmap-dot { transform: scale(1.35); }
+
+// special pins: hometown and PhD (a bigger badge with an icon, always drawn above the plain dots)
+.tmap-pin.is-home, .tmap-pin.is-phd { z-index: 3; }
+.tmap-pin.is-home .tmap-dot,
+.tmap-pin.is-phd .tmap-dot {
+    left: -11px;
+    top: -11px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 1;
+    background: #fff;
+    border: 2px solid $hp-accent;
+}
+.tmap-pin.is-home .tmap-pop { bottom: 22px; }
+.tmap-pin.is-phd .tmap-pop { bottom: 22px; }
+.tmap-pin.is-phd.pop-below .tmap-pop,
+.tmap-pin.is-home.pop-below .tmap-pop { bottom: auto; top: 22px; }
+
+// zoom buttons (top-right of the map)
+.tmap-ctrl {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    button {
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        border: 1px solid #c7cdd6;
+        border-radius: 4px;
+        background: #fff;
+        color: #444;
+        font: inherit;
+        font-size: 16px;
+        line-height: 1;
+        cursor: pointer;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+
+        &:hover { border-color: $hp-accent; color: $hp-accent; }
+    }
+}
+
+.tmap-pop { bottom: 22px; }
+.tmap-pin.is-phd .tmap-pop { bottom: 22px; }
+.tmap-pin.is-phd.pop-below .tmap-pop,
+.tmap-pin.is-home.pop-below .tmap-pop { bottom: auto; top: 22px; }
+
+.tmap-pop {
+    display: none;
+    position: absolute;
+    bottom: 14px;
+    left: -110px;
+    width: 220px;
+    padding: 6px 6px 8px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+    text-align: left;
+    line-height: 1.35;
+    pointer-events: none;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: center 30%;
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    strong { display: block; font-size: 0.85rem; color: #222; padding: 0 2px; }
+    em { display: block; font-style: normal; font-size: 0.75rem; color: $hp-muted; padding: 0 2px; }
+}
+
+.tmap-pin:hover .tmap-pop,
+.tmap-pin:focus .tmap-pop,
+.tmap-pin.is-open .tmap-pop { display: block; animation: rmapTipIn 0.15s ease; }
+
+.tmap-pin.pop-below .tmap-pop { bottom: auto; top: 14px; }
+.tmap-pin.pop-right .tmap-pop { left: -8px; }
+.tmap-pin.pop-left .tmap-pop { left: auto; right: -8px; }
+
+.tmap-count { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.3em 1em; font-size: 0.85em; color: $hp-muted; margin: 0; }
 
 /* ---------- Justified body text (long prose only) ---------- */
 .page__content > p,

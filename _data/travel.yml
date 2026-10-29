@@ -1,0 +1,112 @@
+# Places I have visited. One entry per pin on the /travel/ world map.
+#   name:   place name shown in the hover card
+#   note:   optional short line under the name
+#   lat/lon: decimal degrees, north/east positive (city level is enough)
+#   photo:  file name inside images/visit-images/ (one photo per place)
+#   kind:   optional. "home" = my hometown, "phd" = where I do my PhD (bigger pin with an icon)
+
+- name: "Hong Kong"
+  note: "Where I do my PhD (HKUST)"
+  lat: 22.34
+  lon: 114.26
+  photo: hong-kong.jpg
+  kind: phd
+
+- name: "Xi'an"
+  note: "Home, and my alma mater XJTU"
+  lat: 34.25
+  lon: 108.99
+  photo: xian.jpg
+  kind: home
+
+- name: "Nanjing"
+  lat: 32.06
+  lon: 118.78
+  photo: nanjing.jpg
+
+- name: "Shanghai"
+  note: "CIIE 2024"
+  lat: 31.20
+  lon: 121.32
+  photo: shanghai.jpg
+
+- name: "Hangzhou"
+  note: "West Lake"
+  lat: 30.27
+  lon: 120.16
+  photo: hangzhou.jpg
+
+- name: "Urumqi"
+  note: "Xinjiang"
+  lat: 43.83
+  lon: 87.62
+  photo: urumqi.jpg
+
+- name: "Qingdao"
+  lat: 36.07
+  lon: 120.38
+  photo: qingdao.jpg
+
+- name: "Mohe"
+  note: "Heilongjiang"
+  lat: 52.97
+  lon: 122.54
+  photo: mohe.jpg
+
+- name: "Seoul"
+  lat: 37.57
+  lon: 126.98
+  photo: seoul.jpg
+
+- name: "Busan"
+  note: "UIST 2025"
+  lat: 35.18
+  lon: 129.08
+  photo: busan.jpg
+
+- name: "Phu Quoc"
+  lat: 10.22
+  lon: 103.96
+  photo: phu-quoc.jpg
+
+- name: "Porto"
+  lat: 41.15
+  lon: -8.61
+  photo: porto.jpg
+
+- name: "Barcelona"
+  lat: 41.39
+  lon: 2.17
+  photo: barcelona.jpg
+
+- name: "Frankfurt"
+  lat: 50.11
+  lon: 8.68
+  photo: frankfurt.jpg
+
+- name: "Hamburg"
+  lat: 53.55
+  lon: 10.00
+  photo: hamburg.jpg
+
+- name: "Copenhagen"
+  lat: 55.68
+  lon: 12.57
+  photo: copenhagen.jpg
+
+- name: "Patagonia"
+  note: "Puerto Natales, Chile"
+  lat: -51.73
+  lon: -72.50
+  photo: patagonia.jpg
+
+- name: "New York"
+  lat: 40.71
+  lon: -74.01
+  photo: new-york.jpg
+
+- name: "Philadelphia"
+  note: "Penn"
+  lat: 39.95
+  lon: -75.17
+  photo: philadelphia.jpg

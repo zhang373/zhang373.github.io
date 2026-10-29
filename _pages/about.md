@@ -92,6 +92,16 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 </a>
 </div>
 
+<p class="explore-fun">Let's go grab some fries at the dock, and have fun! 🍟</p>
+
+<div class="travel-row">
+<a class="travel-entry" href="{{ '/travel/' | relative_url }}" target="_self">
+<img src="{{ '/images/matou.jpg' | relative_url }}" alt="Travel: a photo from the dock" loading="lazy">
+<span class="travel-entry-label">Travel</span>
+</a>
+<p class="travel-entry-hint">You can click the image to jump to the Travel page.</p>
+</div>
+
 <!-- Old single-page links such as /#research or /#pub-RITE keep working: forward them to the new pages. -->
 <script>
 (function () {

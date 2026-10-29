@@ -1,3 +1,4 @@
 _site/
 push.sh
 .DS_Store
+images/visit-images/*.zip
