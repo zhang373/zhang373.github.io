@@ -1,94 +1,19 @@
 # Single source of truth for the "Research & Publications" section.
 # Used by:  _includes/research-map.html (hotspots + filter)  and  _includes/pub-card.html (cards).
-# Order = display order of the cards.
+# Order = display order of the cards:
+#   1) accepted / published (newest first), 2) under review (newest first).
 #
 # thread: alignment | users | agents | infra | other
 # hotspot: x / y / w / h in percent of the overview figure (images/ResearchScope.svg).
 #          Append ?rmap-debug to the page URL to see and calibrate the boxes.
+# group: published | review  -> which heading the card is listed under on the page.
 # card: false  -> only a hotspot tooltip, no card below.
+# committee: optional extra line under the authors (used by the PQE report).
 
-- id: RITE
-  short: RITE
-  thread: agents
-  badge: "ICLR 2027 · Under Review"
-  image: images/pub/RITE.png
-  title: "RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems"
-  url: https://arxiv.org/abs/2610.27777
-  authors: "<strong>Wenshuo Zhang</strong>, Yuquan Lin, Yushi Sun, Yishi Lin, Rui Sheng, Peng He, Han Gao, Jikai Wang, Yifeng Rong"
-  venue: "ICLR 2027 (under review), with WeChat Group, Tencent"
-  summary: "A benchmark that injects silent tool errors into realistic e-commerce workflows to test whether agents notice, re-fetch and recover."
-  links:
-    - {name: arXiv, url: "https://arxiv.org/abs/2610.27777"}
-  hotspot: {x: 67, y: 54, w: 31, h: 12}
-
-- id: LatBridge
-  short: LatBridge
-  thread: agents
-  badge: "ACL 2027 · Under Review"
-  image: images/pub/LatBridge.png
-  title: "LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems"
-  url: https://arxiv.org/abs/2610.27813
-  authors: "Jiajun Zhu, Haobo Li, Zixin Chen, Huamin Qu, <strong>Wenshuo Zhang*</strong> (corresponding author)"
-  venue: "ACL ARR, to ACL 2027 (under review)"
-  summary: "Swap the model inside a latent-communication multi-agent system without breaking the messages the other agents rely on."
-  links:
-    - {name: arXiv, url: "https://arxiv.org/abs/2610.27813"}
-  hotspot: {x: 42, y: 66, w: 17, h: 25}
-
-- id: InsightRAG
-  short: InsightRAG
-  thread: users
-  badge: "ACL 2027 · Under Review"
-  image: images/pub/InsightRAG.jpg
-  title: "InsightRAG: Aggregating Distributed Scholarly Judgments for Scientific Survey Generation"
-  url: https://arxiv.org/abs/2610.28085
-  authors: "Yuquan Lin*, <strong>Wenshuo Zhang*</strong> (corresponding author), Yilin Ye, Shuchang Xu, Zhao Chen, Weiqi Wang, Huamin Qu"
-  venue: "ACL ARR, to ACL 2027 (under review)"
-  summary: "Insight-guided retrieval that aggregates scholars' judgments scattered across papers to generate scientific surveys."
-  links:
-    - {name: arXiv, url: "https://arxiv.org/abs/2610.28085"}
-  hotspot: {x: 67, y: 41, w: 31, h: 13}
-
-- id: PACA
-  short: PACA
-  thread: alignment
-  badge: "AAAI · Under Review"
-  image: images/pub/PACA.png
-  title: "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants"
-  url: https://arxiv.org/abs/2607.26611
-  authors: "Zijian Xu*, <strong>Wenshuo Zhang*</strong>, Zisen Qin, Rui Sheng, Yushi Sun, Huamin Qu, Chuhan Shi"
-  venue: "AAAI Conference on Artificial Intelligence (under review)"
-  summary: "Benchmarks whether coding assistants learn a user's cross-session ambiguity patterns, so they ask fewer questions and write better code."
-  links:
-    - {name: arXiv, url: "https://arxiv.org/abs/2607.26611"}
-  hotspot: {x: 40, y: 54, w: 24, h: 9}
-
-- id: BirdRead
-  short: BirdRead
-  thread: users
-  badge: "CHI 2027 · Under Review"
-  image: images/pub/BirdRead.jpg
-  title: "BirdRead: Probe-Driven Bird's-Eye View for Scope-Grounded Critical Paper Reading via Conversational Agentic Media"
-  authors: "<strong>Wenshuo Zhang</strong>, Cheng Zhang, Baiqiao Zhang, Shuchang Xu, Huamin Qu, Yun Wang, Leixian Shen"
-  venue: "CHI 2027 (under review), with Microsoft Research Asia"
-  summary: "Conversational agentic media that replace text-only chat with a probe-driven bird's-eye view for critical paper reading."
-  hotspot: {x: 6, y: 59, w: 32, h: 41}
-
-- id: QuAD
-  short: QuAD
-  thread: users
-  badge: "NAACL · Under Review"
-  image: images/pub/QuAD.png
-  title: "QuAD: Quantitative Assessment via Distribution-Alignment for Qualitative Data Quality Enabled by a Content-Aware Multi-Agent System"
-  url: https://arxiv.org/abs/2610.23153
-  authors: "<strong>Wenshuo Zhang</strong>, Leixian Shen, Qiqi Zhou, Shuchang Xu, Feiyang Hao, Huamin Qu, Haobo Li, Zhao Chen, Linping Yuan"
-  venue: "NAACL (under review)"
-  summary: "A content-aware multi-agent system that quantifies the quality of qualitative data by aligning content and demographic distributions."
-  links:
-    - {name: arXiv, url: "https://arxiv.org/abs/2610.23153"}
-  hotspot: {x: 2, y: 0, w: 30, h: 42}
+# ---------------- Accepted / published ----------------
 
 - id: SonicStage
+  group: published
   short: Sonic Stage
   thread: users
   badge: "UIST 2026 · CCF-A"
@@ -102,6 +27,7 @@
     - {name: arXiv, url: "https://arxiv.org/abs/2607.20835"}
 
 - id: CUDAQML
+  group: published
   short: CUDA-Q ML
   thread: infra
   badge: "ISC 2026 · Poster"
@@ -114,18 +40,21 @@
   hotspot: {x: 48, y: 3, w: 29, h: 27}
 
 - id: PQE
+  group: published
   short: MAWA Survey
   thread: agents
   badge: "PQE Exam"
   image: images/pub/PQE.png
   title: "A Survey on LLM-Based Multi-Agent Workflow Automation (MAWA): Methods, Taxonomies, and Future Directions"
   url: "https://hkustconnect-my.sharepoint.com/:b:/g/personal/wzhangeb_connect_ust_hk/IQA20E8X6mRmTqoFRwojjl-bAYFac2dOXkWWERwMO_2r6a8?e=GyqPNs"
-  authors: "<strong>Wenshuo Zhang</strong>, Huamin Qu"
+  authors: "<strong>Wenshuo Zhang</strong>"
+  committee: "Huamin Qu, Raymond Wong, Arpit Narechania"
   venue: "Ph.D. Qualifying Exam Survey Report, 2025"
   links:
     - {name: Slides, url: "https://hkustconnect-my.sharepoint.com/:p:/g/personal/wzhangeb_connect_ust_hk/IQC-np-5BQn4SbALLvQgS9fxAUm9U8NI8egzrYehY1L5OnE?e=XkUNcT"}
 
 - id: NeuroSync
+  group: published
   short: NeuroSync
   thread: alignment
   badge: "UIST 2025 (CCF-A)"
@@ -141,6 +70,97 @@
     - {name: Website, url: "https://zhang373.github.io/NeuroSync_Web/"}
     - {name: arXiv, url: "https://arxiv.org/abs/2508.02823"}
   hotspot: {x: 33, y: 29, w: 20, h: 24}
+
+# ---------------- Under review ----------------
+
+- id: RITE
+  group: review
+  short: RITE
+  thread: agents
+  badge: "ICLR 2027 · Under Review"
+  image: images/pub/RITE.png
+  title: "RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems"
+  url: https://arxiv.org/abs/2610.27777
+  authors: "<strong>Wenshuo Zhang</strong>, Yuquan Lin, Yushi Sun, Yishi Lin, Rui Sheng, Peng He, Han Gao, Jikai Wang, Yifeng Rong"
+  venue: "ICLR 2027 (under review), with WeChat Group, Tencent"
+  summary: "A benchmark that injects silent tool errors into realistic e-commerce workflows to test whether agents notice, re-fetch and recover."
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2610.27777"}
+  hotspot: {x: 67, y: 54, w: 31, h: 12}
+
+- id: LatBridge
+  group: review
+  short: LatBridge
+  thread: agents
+  badge: "ACL 2027 · Under Review"
+  image: images/pub/LatBridge.png
+  title: "LatBridge: Efficient and Stable Model Replacement in Latent-Communication Multi-Agent Systems"
+  url: https://arxiv.org/abs/2610.27813
+  authors: "Jiajun Zhu, Haobo Li, Zixin Chen, Huamin Qu, <strong>Wenshuo Zhang*</strong> (corresponding author)"
+  venue: "ACL ARR, to ACL 2027 (under review)"
+  summary: "Swap the model inside a latent-communication multi-agent system without breaking the messages the other agents rely on."
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2610.27813"}
+  hotspot: {x: 42, y: 66, w: 17, h: 25}
+
+- id: InsightRAG
+  group: review
+  short: InsightRAG
+  thread: users
+  badge: "ACL 2027 · Under Review"
+  image: images/pub/InsightRAG.jpg
+  title: "InsightRAG: Aggregating Distributed Scholarly Judgments for Scientific Survey Generation"
+  url: https://arxiv.org/abs/2610.28085
+  authors: "Yuquan Lin*, <strong>Wenshuo Zhang*</strong> (corresponding author), Yilin Ye, Shuchang Xu, Zhao Chen, Weiqi Wang, Huamin Qu"
+  venue: "ACL ARR, to ACL 2027 (under review)"
+  summary: "Insight-guided retrieval that aggregates scholars' judgments scattered across papers to generate scientific surveys."
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2610.28085"}
+  hotspot: {x: 67, y: 41, w: 31, h: 13}
+
+- id: PACA
+  group: review
+  short: PACA
+  thread: alignment
+  badge: "AAAI · Under Review"
+  image: images/pub/PACA.png
+  title: "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants"
+  url: https://arxiv.org/abs/2607.26611
+  authors: "Zijian Xu*, <strong>Wenshuo Zhang*</strong>, Zisen Qin, Rui Sheng, Yushi Sun, Huamin Qu, Chuhan Shi"
+  venue: "AAAI Conference on Artificial Intelligence (under review)"
+  summary: "Benchmarks whether coding assistants learn a user's cross-session ambiguity patterns, so they ask fewer questions and write better code."
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2607.26611"}
+  hotspot: {x: 40, y: 54, w: 24, h: 9}
+
+- id: BirdRead
+  group: review
+  short: BirdRead
+  thread: users
+  badge: "CHI 2027 · Under Review"
+  image: images/pub/BirdRead.jpg
+  title: "BirdRead: Probe-Driven Bird's-Eye View for Scope-Grounded Critical Paper Reading via Conversational Agentic Media"
+  authors: "<strong>Wenshuo Zhang</strong>, Cheng Zhang, Baiqiao Zhang, Shuchang Xu, Huamin Qu, Yun Wang, Leixian Shen"
+  venue: "CHI 2027 (under review), with Microsoft Research Asia"
+  summary: "Conversational agentic media that replace text-only chat with a probe-driven bird's-eye view for critical paper reading."
+  hotspot: {x: 6, y: 59, w: 32, h: 41}
+
+- id: QuAD
+  group: review
+  short: QuAD
+  thread: users
+  badge: "NAACL · Under Review"
+  image: images/pub/QuAD.png
+  title: "QuAD: Quantitative Assessment via Distribution-Alignment for Qualitative Data Quality Enabled by a Content-Aware Multi-Agent System"
+  url: https://arxiv.org/abs/2610.23153
+  authors: "<strong>Wenshuo Zhang</strong>, Leixian Shen, Qiqi Zhou, Shuchang Xu, Feiyang Hao, Huamin Qu, Haobo Li, Zhao Chen, Linping Yuan"
+  venue: "NAACL (under review)"
+  summary: "A content-aware multi-agent system that quantifies the quality of qualitative data by aligning content and demographic distributions."
+  links:
+    - {name: arXiv, url: "https://arxiv.org/abs/2610.23153"}
+  hotspot: {x: 2, y: 0, w: 30, h: 42}
+
+# ---------------- Overview-figure tooltip only (no card) ----------------
 
 - id: SoT
   short: SoT

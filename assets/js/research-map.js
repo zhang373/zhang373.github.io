@@ -23,9 +23,10 @@
     });
     map.classList.toggle('is-filtered', filter !== 'all');
 
+    // light up the boxes of the selected thread on the overview figure ("All" = no highlight)
     spots.forEach(function (s) {
-      var off = filter !== 'all' && s.getAttribute('data-thread') !== filter;
-      s.classList.toggle('is-dim', off);
+      var lit = filter !== 'all' && s.getAttribute('data-thread') === filter;
+      s.classList.toggle('is-lit', lit);
     });
 
     cards().forEach(function (card) {
@@ -36,6 +37,13 @@
         card.classList.add('is-entering');
         setTimeout(function () { card.classList.remove('is-entering'); }, 300);
       }
+    });
+
+    // hide a group heading when none of its cards is visible
+    [].slice.call(document.querySelectorAll('.pub-group-title')).forEach(function (h) {
+      var g = h.getAttribute('data-group');
+      var any = document.querySelector('.pub-item[data-group="' + g + '"]:not(.is-hidden)');
+      h.classList.toggle('is-hidden', !any);
     });
   }
 

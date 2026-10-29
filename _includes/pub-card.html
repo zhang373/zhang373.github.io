@@ -1,6 +1,6 @@
 {%- assign p = include.pub -%}
 {%- if p.card != false -%}
-<div class='paper-box pub-item{% unless p.image != blank %} pub-textonly{% endunless %}' id='pub-{{ p.id }}' data-thread='{{ p.thread }}'>
+<div class='paper-box pub-item{% unless p.image != blank %} pub-textonly{% endunless %}' id='pub-{{ p.id }}' data-thread='{{ p.thread }}' data-group='{{ p.group }}'>
 {%- if p.image != blank %}
 <div class='paper-box-image'><div>{% if p.badge != blank %}<div class="badge">{{ p.badge }}</div>{% endif %}<img class='pub-img' src='{{ p.image | prepend: "/" | relative_url }}' alt='{{ p.short }}' loading='lazy' onerror="this.style.visibility='hidden'"></div></div>
 {%- endif %}
@@ -11,6 +11,9 @@
 <div class='pub-title'>{{ p.title }}</div>
 {%- endif %}
 <div class='pub-authors'>{{ p.authors }}</div>
+{%- if p.committee %}
+<div class='pub-committee'>PQE Exam Committee: {{ p.committee }}</div>
+{%- endif %}
 <div class='pub-venue'>{{ p.venue }}</div>
 {%- if p.award != blank %}
 <div class='pub-award'>{{ p.award }}</div>

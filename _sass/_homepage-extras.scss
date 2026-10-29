@@ -85,7 +85,30 @@ $hp-soft: #f7f8fa;
     }
 
     &.rmap-nolink { cursor: default; }
-    &.is-dim { opacity: 0.2; pointer-events: none; }
+
+    // selected in the filter chips: keep the box lit
+    &.is-lit {
+        border-color: $hp-accent;
+        background: rgba(0, 54, 159, 0.1);
+        box-shadow: 0 0 0 3px rgba(0, 54, 159, 0.18);
+        animation: rmapLit 0.35s ease;
+    }
+}
+
+@keyframes rmapLit {
+    from { box-shadow: 0 0 0 0 rgba(0, 54, 159, 0.35); }
+    to   { box-shadow: 0 0 0 3px rgba(0, 54, 159, 0.18); }
+}
+
+.pub-group-title {
+    margin: 1.4em 0 0.6em;
+    padding-bottom: 0.25em;
+    font-size: 1.05em;
+    font-weight: 700;
+    color: $hp-muted;
+    border-bottom: 1px solid $hp-line;
+
+    &.is-hidden { display: none; }
 }
 
 .rmap-id { display: none; }
@@ -218,6 +241,7 @@ $hp-soft: #f7f8fa;
 .pub-title { font-weight: 600; margin-bottom: 0.25em; }
 .pub-short { font-weight: 400; color: $hp-muted; font-size: 0.85em; }
 .pub-authors { font-size: 0.9em; }
+.pub-committee { font-size: 0.85em; color: $hp-muted; }
 .pub-venue { font-size: 0.85em; color: $hp-muted; font-style: italic; }
 .pub-award { margin-top: 0.25em; font-size: 0.9em; font-weight: 700; color: #d92d20; }
 .pub-links a {
@@ -345,6 +369,32 @@ a.explore-card {
     color: $hp-accent;
     font-weight: 700;
     border-bottom: 2px solid $hp-accent;
+}
+
+/* ---------- Justified body text (long prose only) ---------- */
+.page__content > p,
+.page__content > ul > li,
+.page__content > ol > li,
+.exp-desc li,
+.paper-box-text p,
+.pub-title,
+.pub-authors {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+// keep the scrolling lists, tooltips and short lines ragged-right
+.news-scroll li,
+.rmap-tip,
+.pub-venue,
+.pub-links,
+.pub-award,
+.pub-committee,
+.explore-card {
+    text-align: left;
+    hyphens: manual;
+    -webkit-hyphens: manual;
 }
 
 /* ---------- Small screens ---------- */

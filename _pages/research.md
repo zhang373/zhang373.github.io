@@ -21,7 +21,10 @@ My research aligns users and agentic systems along three threads, with the infra
 {% include research-map.html %}
 
 <div class="pub-list">
-{%- for p in site.data.publications -%}{%- include pub-card.html pub=p -%}{%- endfor -%}
+<h3 class="pub-group-title" data-group="published">Accepted &amp; Published</h3>
+{%- for p in site.data.publications -%}{%- if p.group == 'published' -%}{%- include pub-card.html pub=p -%}{%- endif -%}{%- endfor %}
+<h3 class="pub-group-title" data-group="review">Under Review &amp; Preprints</h3>
+{%- for p in site.data.publications -%}{%- if p.group == 'review' -%}{%- include pub-card.html pub=p -%}{%- endif -%}{%- endfor %}
 </div>
 
 <p class="pub-note">* Equal contribution, or corresponding author where marked. For the full list of publications and collaborations, please see my <a href="https://scholar.google.com/citations?user=_a7LNhMAAAAJ&hl=zh-CN">Google Scholar</a>.</p>
