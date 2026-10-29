@@ -1,0 +1,27 @@
+<div class='rmap' id='research-map'>
+<div class='rmap-fig'>
+<img class='rmap-img' src='{{ "/images/ResearchScope.svg" | relative_url }}' alt='Research overview: aligning users and agentic systems, augmenting users, augmenting agents, and the infrastructure underneath'>
+{%- for p in site.data.publications -%}
+{%- if p.hotspot -%}
+{%- assign cx = p.hotspot.w | divided_by: 2.0 | plus: p.hotspot.x -%}
+{%- assign tipclass = '' -%}
+{%- if cx > 70 -%}{%- assign tipclass = 'tip-right' -%}{%- elsif cx < 30 -%}{%- assign tipclass = 'tip-left' -%}{%- endif -%}
+{%- if p.hotspot.y < 30 -%}{%- assign tipclass = tipclass | append: ' tip-below' -%}{%- endif -%}
+{%- capture tip -%}<span class='rmap-tip'><strong>{{ p.short }}</strong>{% if p.status %}<b class='rmap-status'>{{ p.status }}</b>{% endif %}<em>{{ p.venue }}</em><span>{{ p.summary }}</span></span>{%- endcapture -%}
+{%- if p.card == false -%}
+<span class='rmap-spot rmap-nolink {{ tipclass }}' data-thread='{{ p.thread }}' data-pub='{{ p.id }}' tabindex='0' aria-label='{{ p.short }}' style='left:{{ p.hotspot.x }}%;top:{{ p.hotspot.y }}%;width:{{ p.hotspot.w }}%;height:{{ p.hotspot.h }}%'><b class='rmap-id'>{{ p.short }}</b>{{ tip }}</span>
+{%- else -%}
+<a class='rmap-spot {{ tipclass }}' target='_self' href='#pub-{{ p.id }}' data-thread='{{ p.thread }}' data-pub='{{ p.id }}' aria-label='{{ p.short }}: jump to paper' style='left:{{ p.hotspot.x }}%;top:{{ p.hotspot.y }}%;width:{{ p.hotspot.w }}%;height:{{ p.hotspot.h }}%'><b class='rmap-id'>{{ p.short }}</b>{{ tip }}</a>
+{%- endif -%}
+{%- endif -%}
+{%- endfor %}
+</div>
+<div class='rmap-hint'>Hover a block for a summary, click it to jump to the paper.</div>
+<div class='pub-filter' role='group' aria-label='Filter publications by research thread'>
+<button type='button' class='is-active' data-filter='all'>All</button>
+<button type='button' data-filter='alignment'>User&ndash;Agent Alignment</button>
+<button type='button' data-filter='users'>Augmenting Users</button>
+<button type='button' data-filter='agents'>Augmenting Agents</button>
+<button type='button' data-filter='infra'>Infrastructure</button>
+</div>
+</div>

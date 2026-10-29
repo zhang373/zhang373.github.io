@@ -1,0 +1,354 @@
+// Additions for the 2026 content update.
+// Only NEW components live here. The existing palette is kept:
+//   link blue  #224b8d ($info-color), badge blue #00369f, greys from the old .paper-box styles.
+
+$hp-accent: #00369f;
+$hp-link: #224b8d;
+$hp-muted: #7a8288;
+$hp-line: #efefef;
+$hp-soft: #f7f8fa;
+
+/* ---------- News: manually scrollable box ---------- */
+.news-scroll {
+    position: relative;
+    max-height: 22em;
+    overflow-y: auto;
+    margin: 0.6em 0 1.2em;
+    padding: 0.3em 0.9em 0.3em 1em;
+    background: $hp-soft;
+    border-left: 2px solid $hp-accent;
+    border-radius: 0 4px 4px 0;
+    scrollbar-width: thin;
+    scrollbar-color: #c7cdd6 transparent;
+
+    ul { margin: 0; }
+    li { margin: 0.35em 0; }
+
+    &::-webkit-scrollbar { width: 4px; }
+    &::-webkit-scrollbar-thumb { background: #c7cdd6; border-radius: 4px; }
+
+    // fade hint that there is more below
+    &::after {
+        content: '';
+        position: sticky;
+        bottom: -0.3em;
+        display: block;
+        height: 1.8em;
+        margin: -1.8em -0.9em -0.3em -1em;
+        background: linear-gradient(rgba(247, 248, 250, 0), $hp-soft 85%);
+        pointer-events: none;
+    }
+}
+
+/* ---------- Research & Publications ---------- */
+.rm-threads {
+    margin: 0.4em 0 1em;
+    li { margin: 0.25em 0; }
+}
+
+.rmap {
+    margin: 1em 0 2em;
+}
+
+.rmap-fig {
+    position: relative;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 3px 3px 6px #bbb;
+}
+
+.rmap-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.rmap-spot {
+    position: absolute;
+    display: block;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: border-color 0.15s ease, background-color 0.15s ease, opacity 0.2s ease;
+
+    &:hover,
+    &:focus {
+        border-color: $hp-accent;
+        background: rgba(0, 54, 159, 0.08);
+        outline: none;
+        z-index: 5;
+        text-decoration: none;
+    }
+
+    &.rmap-nolink { cursor: default; }
+    &.is-dim { opacity: 0.2; pointer-events: none; }
+}
+
+.rmap-id { display: none; }
+
+.rmap-tip {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 260px;
+    padding: 0.5em 0.75em;
+    border-radius: 4px;
+    background: rgba(34, 34, 34, 0.94);
+    font-size: 0.78rem;
+    line-height: 1.4;
+    text-align: left;
+    pointer-events: none;
+    z-index: 10;
+
+    &, strong, em, span { color: #fff; }
+    strong { display: block; font-size: 1.05em; }
+    b.rmap-status {
+        display: inline-block;
+        margin: 0.15em 0 0.2em;
+        padding: 0 0.5em;
+        border-radius: 3px;
+        background: rgba(255, 255, 255, 0.18);
+        font-size: 0.92em;
+        font-weight: 600;
+    }
+    em { display: block; font-style: normal; opacity: 0.7; margin-bottom: 0.25em; }
+    span { display: block; }
+}
+
+.rmap-spot:hover .rmap-tip,
+.rmap-spot:focus .rmap-tip {
+    display: block;
+    animation: rmapTipIn 0.15s ease;
+}
+
+.rmap-spot.tip-below .rmap-tip { bottom: auto; top: calc(100% + 8px); }
+.rmap-spot.tip-right .rmap-tip { left: auto; right: 0; transform: none; }
+.rmap-spot.tip-left .rmap-tip { left: 0; transform: none; }
+
+@keyframes rmapTipIn {
+    from { opacity: 0; margin-top: 3px; }
+    to { opacity: 1; margin-top: 0; }
+}
+
+// ?rmap-debug : show every hotspot with its id so the boxes can be calibrated
+.rmap.is-debug .rmap-spot {
+    border: 1px dashed #d92d20;
+    background: rgba(217, 45, 32, 0.1);
+}
+.rmap.is-debug .rmap-id {
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    padding: 0 3px;
+    font-size: 11px;
+    color: #d92d20;
+    background: #fff;
+}
+
+.rmap-hint {
+    margin: 0.6em 0 0.8em;
+    font-size: 0.8em;
+    color: $hp-muted;
+    text-align: center;
+}
+
+.pub-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+
+    button {
+        font: inherit;
+        font-size: 0.8em;
+        padding: 0.25em 0.95em;
+        border: 1px solid #c7cdd6;
+        border-radius: 999px;
+        background: #fff;
+        color: #555;
+        cursor: pointer;
+        transition: all 0.15s ease;
+
+        &:hover { border-color: $hp-accent; color: $hp-accent; }
+        &.is-active { background: $hp-accent; border-color: $hp-accent; color: #fff; }
+    }
+}
+
+/* ---------- Paper / project cards ---------- */
+.pub-item, .proj-item {
+    .paper-box-image > div { width: 100%; max-width: 400px; }
+    .paper-box-image img.pub-img {
+        width: 100%;
+        aspect-ratio: 2 / 1;
+        object-fit: contain;
+        background: #fff;
+    }
+}
+
+.pub-item.is-hidden { display: none; }
+.pub-item.is-entering { animation: pubIn 0.25s ease; }
+.pub-item.pub-flash { animation: pubFlash 1.4s ease; }
+
+@keyframes pubIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pubFlash {
+    0%, 55% { background: #eef3fb; }
+    100% { background: transparent; }
+}
+
+.paper-box.pub-textonly .paper-box-text {
+    max-width: 100%;
+    padding-left: 0;
+}
+
+@include breakpoint($medium) {
+    .paper-box.pub-textonly .paper-box-text {
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+.pub-title { font-weight: 600; margin-bottom: 0.25em; }
+.pub-short { font-weight: 400; color: $hp-muted; font-size: 0.85em; }
+.pub-authors { font-size: 0.9em; }
+.pub-venue { font-size: 0.85em; color: $hp-muted; font-style: italic; }
+.pub-award { margin-top: 0.25em; font-size: 0.9em; font-weight: 700; color: #d92d20; }
+.pub-links a {
+    display: inline-block;
+    margin: 0.55em 0.4em 0 0;
+    padding: 0.05em 0.75em;
+    border: 1px solid $hp-link;
+    border-radius: 999px;
+    font-size: 0.78em;
+    text-decoration: none;
+    transition: background-color 0.15s ease, color 0.15s ease;
+
+    &:hover { background: $hp-link; color: #fff; }
+}
+
+.pub-note {
+    margin: 0.8em 0 0;
+    font-size: 0.8em;
+    color: $hp-muted;
+}
+
+/* ---------- Experience: logo + what I did ---------- */
+.exp-list { margin: 0.6em 0 1.5em; }
+
+.exp-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2em;
+    padding: 1.1em 0;
+    border-bottom: 1px solid $hp-line;
+
+    &:hover .exp-logo {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.exp-logo {
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    img { max-width: 100%; max-height: 100%; object-fit: contain; }
+}
+
+.exp-body { flex: 1; min-width: 0; }
+.exp-org { font-weight: 700; }
+.exp-role { font-size: 0.9em; color: $hp-muted; }
+.exp-desc {
+    margin: 0.4em 0 0;
+    padding-left: 1.1em;
+    font-size: 0.9em;
+    li { margin: 0.2em 0; }
+}
+
+/* ---------- Small school / company logos placed inside the About text ---------- */
+a.inline-logo {
+    display: inline;
+    line-height: inherit;
+    margin: 0 0.1em;
+    border-bottom: none;
+
+    img {
+        display: inline;
+        // same height for every logo, no taller than the text line, so line spacing never changes
+        height: 1.2em;
+        width: auto;
+        max-width: none;
+        vertical-align: text-bottom;
+        position: relative;
+        top: 0.08em;
+        box-shadow: none;
+        transition: opacity 0.15s ease;
+    }
+
+    &:hover img { opacity: 0.75; }
+}
+
+/* ---------- Home page: cards that lead to the other pages ---------- */
+.explore-intro {
+    margin: 0.4em 0 1em;
+    color: $hp-muted;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.9em;
+    margin: 0 0 2em;
+
+    @media (min-width: 768px) { grid-template-columns: repeat(3, 1fr); }
+}
+
+a.explore-card {
+    display: block;
+    padding: 0.9em 1.1em;
+    border: 1px solid $hp-line;
+    border-radius: 6px;
+    background: #fff;
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+        transform: translateY(-2px);
+        border-color: $hp-accent;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        text-decoration: none;
+    }
+
+    .explore-icon { display: inline-block; margin-right: 0.35em; }
+    .explore-title { font-weight: 700; color: $hp-link; }
+    .explore-desc { display: block; margin-top: 0.3em; font-size: 0.85em; color: $hp-muted; }
+}
+
+/* ---------- Top navigation: current page ---------- */
+.masthead__menu-item.is-current a {
+    color: $hp-accent;
+    font-weight: 700;
+    border-bottom: 2px solid $hp-accent;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 767px) {
+    .rmap-tip { display: none !important; }
+    .exp-item { gap: 0.9em; }
+}

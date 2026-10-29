@@ -1,0 +1,23 @@
+{%- assign p = include.pub -%}
+{%- if p.card != false -%}
+<div class='paper-box pub-item{% unless p.image != blank %} pub-textonly{% endunless %}' id='pub-{{ p.id }}' data-thread='{{ p.thread }}'>
+{%- if p.image != blank %}
+<div class='paper-box-image'><div>{% if p.badge != blank %}<div class="badge">{{ p.badge }}</div>{% endif %}<img class='pub-img' src='{{ p.image | prepend: "/" | relative_url }}' alt='{{ p.short }}' loading='lazy' onerror="this.style.visibility='hidden'"></div></div>
+{%- endif %}
+<div class='paper-box-text pub-text'>
+{%- if p.url != blank %}
+<div class='pub-title'><a href='{{ p.url }}'>{{ p.title }}</a>{% if p.short and p.short != p.title and p.id == 'PACA' %} <span class='pub-short'>({{ p.short }})</span>{% endif %}</div>
+{%- else %}
+<div class='pub-title'>{{ p.title }}</div>
+{%- endif %}
+<div class='pub-authors'>{{ p.authors }}</div>
+<div class='pub-venue'>{{ p.venue }}</div>
+{%- if p.award != blank %}
+<div class='pub-award'>{{ p.award }}</div>
+{%- endif %}
+{%- if p.links %}
+<div class='pub-links'>{% for l in p.links %}<a href='{{ l.url }}'>{{ l.name }}</a>{% endfor %}</div>
+{%- endif %}
+</div>
+</div>
+{%- endif -%}
