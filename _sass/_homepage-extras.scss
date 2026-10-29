@@ -490,6 +490,10 @@ a.explore-card {
 
 // special pins: hometown and PhD (a bigger badge with an icon, always drawn above the plain dots)
 .tmap-pin.is-home, .tmap-pin.is-phd { z-index: 3; }
+// a pin that is hovered / focused / opened must stay above every other pin (this rule is more specific than the one above)
+.tmap .tmap-pin:hover,
+.tmap .tmap-pin:focus,
+.tmap .tmap-pin.is-open { z-index: 20; }
 .tmap-pin.is-home .tmap-dot,
 .tmap-pin.is-phd .tmap-dot {
     left: -11px;
