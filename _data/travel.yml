@@ -110,3 +110,82 @@
   lat: 39.95
   lon: -75.17
   photo: philadelphia.jpg
+
+- name: "Beijing"
+  lat: 39.90
+  lon: 116.40
+  photo: beijing.jpg
+
+- name: "Changsha"
+  note: "Orange Isle"
+  lat: 28.20
+  lon: 112.97
+  photo: changsha.jpg
+
+- name: "Duku Highway"
+  note: "Xinjiang"
+  lat: 43.60
+  lon: 84.60
+  photo: dukugonglu.jpg
+
+- name: "Dunhuang"
+  note: "Crescent Lake"
+  lat: 40.09
+  lon: 94.68
+  photo: dunhuang.jpg
+
+- name: "Guilin"
+  lat: 25.27
+  lon: 110.29
+  photo: guilin.jpg
+
+- name: "Haikou"
+  lat: 20.04
+  lon: 110.35
+  photo: haikou.jpg
+
+- name: "Snow Town"
+  note: "Heilongjiang"
+  lat: 44.95
+  lon: 128.45
+  photo: heilongjiangxuexiang.jpg
+
+- name: "Hohhot"
+  note: "Inner Mongolia"
+  lat: 40.84
+  lon: 111.75
+  photo: huhehaote.jpg
+
+- name: "Luoyang"
+  note: "Longmen Grottoes"
+  lat: 34.62
+  lon: 112.45
+  photo: luoyang.jpg
+
+- name: "Mount Lu"
+  note: "Jiangxi"
+  lat: 29.55
+  lon: 115.99
+  photo: lushanjiangxi.jpg
+
+- name: "Qinghai Lake"
+  lat: 36.90
+  lon: 100.20
+  photo: qinghaihu.jpg
+
+- name: "Pingyao"
+  note: "Shanxi"
+  lat: 37.20
+  lon: 112.18
+  photo: shanxipingyaogucheng.jpg
+
+- name: "Tianjin"
+  lat: 39.13
+  lon: 117.20
+  photo: tianjin.jpg
+
+- name: "Viña del Mar"
+  note: "Chile"
+  lat: -33.02
+  lon: -71.55
+  photo: vinadermar.jpg
