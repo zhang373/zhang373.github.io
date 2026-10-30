@@ -474,14 +474,15 @@ a.explore-card {
 
 .tmap-dot {
     position: absolute;
-    left: -7px;
-    top: -7px;
-    width: 14px;
-    height: 14px;
+    left: -4px;
+    top: -4px;
+    width: 8px;
+    height: 8px;
+    box-sizing: border-box;
     border-radius: 50%;
     background: $hp-accent;
-    border: 2px solid #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    border: 1px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
     transition: transform 0.15s ease;
 }
 .tmap-pin:hover .tmap-dot,
@@ -549,7 +550,7 @@ a.explore-card {
 .tmap-pop {
     display: none;
     position: absolute;
-    bottom: 14px;
+    bottom: 8px;
     left: -110px;
     width: 220px;
     padding: 6px 6px 8px;
@@ -577,7 +578,7 @@ a.explore-card {
 .tmap-pin:focus .tmap-pop,
 .tmap-pin.is-open .tmap-pop { display: block; animation: rmapTipIn 0.15s ease; }
 
-.tmap-pin.pop-below .tmap-pop { bottom: auto; top: 14px; }
+.tmap-pin.pop-below .tmap-pop { bottom: auto; top: 8px; }
 .tmap-pin.pop-right .tmap-pop { left: -8px; }
 .tmap-pin.pop-left .tmap-pop { left: auto; right: -8px; }
 
