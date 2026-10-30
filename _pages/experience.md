@@ -27,9 +27,9 @@ redirect_from:
 </div>
 
 <div class="exp-item">
-<a class="exp-logo" href="https://www.nvidia.com/"><img src="/images/logos/nvidia.png" alt="NVIDIA" onerror="this.style.visibility='hidden'"></a>
+<a class="exp-logo" href="https://www.nvidia.com/en-us/"><img src="/images/logos/nvidia.png" alt="NVIDIA" onerror="this.style.visibility='hidden'"></a>
 <div class="exp-body">
-<div class="exp-org"><a href="https://www.nvidia.com/">NVIDIA</a> &middot; Solution Architecture, Hong Kong</div>
+<div class="exp-org"><a href="https://www.nvidia.com/en-us/">NVIDIA</a> &middot; Solution Architecture, Hong Kong</div>
 <div class="exp-role">Solutions Architect Intern (Research, Part-time) &middot; Machine learning infrastructure</div>
 <ul class="exp-desc">
 <li><strong>CUDA-Q ML (ISC'26 poster):</strong> makes quantum circuits differentiable nodes in PyTorch autograd, with automatic gradient selection and distributed data-parallel training.</li>

@@ -23,7 +23,7 @@ My research asks how to **align agentic systems with the people who use them**, 
 
 - **Human-centered (HCI).** Designing interactions that let people see and steer what an AI system understands. Examples are [NeuroSync](https://arxiv.org/abs/2508.02823) (**UIST'25 Best Paper Honorable Mention**) and agentic media for sensemaking (BirdRead, under review at CHI'27 with Microsoft Research Asia); I also co-authored a **UIST'26 Best Paper**.
 - **Model-side (AI).** Turning interaction signals into training and evaluation for agentic systems: cross-session personalization, resilience to silent tool errors, retrieval, and latent multi-agent communication (under review at ICLR, ACL, and AAAI; preprints on arXiv).
-- **In production.** Bringing this work into real systems. At **Tencent WeChat** <a class="inline-logo" href="https://www.tencent.com/" title="Tencent"><img src="/images/logos/inline/tencent.png" alt="Tencent"></a>, I built an efficient agentic dialogue system that raised per-GPU serving capacity by **21×** with task completion within 30 seconds, enabling deployment for up to 2,000 concurrent users; at **NVIDIA** <a class="inline-logo" href="https://www.nvidia.com/" title="NVIDIA"><img src="/images/logos/inline/nvidia.png" alt="NVIDIA"></a>, I built GPU training and inference infrastructure (ISC'26).
+- **In production.** Bringing this work into real systems. At **Tencent WeChat** <a class="inline-logo" href="https://www.tencent.com/" title="Tencent"><img src="/images/logos/inline/tencent.png" alt="Tencent"></a>, I built an efficient agentic dialogue system that raised per-GPU serving capacity by **21×** with task completion within 30 seconds, enabling deployment for up to 2,000 concurrent users; at **NVIDIA** <a class="inline-logo" href="https://www.nvidia.com/en-us/" title="NVIDIA"><img src="/images/logos/inline/nvidia.png" alt="NVIDIA"></a>, I built GPU training and inference infrastructure (ISC'26).
 
 Before HKUST, I received a B.S. in Automation, with an additional Dual B.S. in Accounting, from Xi'an Jiaotong University <a class="inline-logo" href="http://en.xjtu.edu.cn/" title="Xi'an Jiaotong University"><img src="/images/logos/inline/xjtu.png" alt="XJTU"></a> in 2024. Along the way, I was a visiting student at HKUST (Guangzhou) <a class="inline-logo" href="https://www.hkust-gz.edu.cn/" title="HKUST (Guangzhou)"><img src="/images/logos/inline/hkust-gz.png" alt="HKUST-GZ"></a> and a government-sponsored exchange student at the University of Hong Kong <a class="inline-logo" href="https://www.hku.hk/" title="The University of Hong Kong"><img src="/images/logos/inline/hku.png" alt="HKU"></a>.
 
@@ -77,7 +77,7 @@ I am actively looking for Research Intern Positions in the United States, Mainla
 <div class="explore-grid">
 <a class="explore-card" href="{{ '/research/' | relative_url }}" target="_self">
 <span class="explore-icon">📝</span>
-<span class="explore-title">Research &amp; Publications</span>
+<span class="explore-title">Research and Selected Publications</span>
 <span class="explore-desc">Research threads, an interactive overview figure, and papers.</span>
 </a>
 <a class="explore-card" href="{{ '/experience/' | relative_url }}" target="_self">

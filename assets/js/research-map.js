@@ -1,4 +1,4 @@
-/* Interactions for the "Research & Publications" section.
+/* Interactions for the "Research and Selected Publications" section.
  *  - click a hotspot on the overview figure  -> scroll to its paper card and flash it
  *  - filter chips                            -> show only the cards (and highlight the hotspots) of one thread
  *  - ?rmap-debug in the URL                  -> draw every hotspot box to calibrate coordinates

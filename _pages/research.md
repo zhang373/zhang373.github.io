@@ -1,13 +1,13 @@
 ---
 permalink: /research/
-title: "Research & Publications"
+title: "Research and Selected Publications"
 excerpt: ""
 author_profile: true
 ---
 
 <span class='anchor' id='research'></span>
 
-# 📝 Research & Publications
+# 📝 Research and Selected Publications
 
 My research aligns users and agentic systems along three threads, with the infrastructure that runs them underneath:
 

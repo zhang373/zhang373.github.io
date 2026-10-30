@@ -1,10 +1,10 @@
-# Single source of truth for the "Research & Publications" section.
+# Single source of truth for the "Research and Selected Publications" section.
 # Used by:  _includes/research-map.html (hotspots + filter)  and  _includes/pub-card.html (cards).
 # Order = display order of the cards:
 #   1) accepted / published (newest first), 2) under review (newest first).
 #
 # thread: alignment | users | agents | infra | other
-# hotspot: x / y / w / h in percent of the overview figure (images/ResearchScope.svg).
+# hotspot: x / y / w / h in percent of the overview figure (images/ResearchScopeAll_New.svg).
 #          Append ?rmap-debug to the page URL to see and calibrate the boxes.
 # group: published | review  -> which heading the card is listed under on the page.
 # card: false  -> only a hotspot tooltip, no card below.
@@ -37,7 +37,7 @@
   authors: "<strong>Wenshuo Zhang</strong>, Lyulin Kuang, Rita Zhang"
   venue: "ISC High Performance 2026 (poster), done at NVIDIA"
   summary: "Makes CUDA-Q quantum circuits differentiable nodes in PyTorch autograd, with distributed data-parallel training."
-  hotspot: {x: 48, y: 3, w: 29, h: 27}
+  hotspot: {x: 53.9, y: 68.2, w: 35.4, h: 30.7}
 
 - id: PQE
   group: published
@@ -69,7 +69,7 @@
   links:
     - {name: Website, url: "https://zhang373.github.io/NeuroSync_Web/"}
     - {name: arXiv, url: "https://arxiv.org/abs/2508.02823"}
-  hotspot: {x: 33, y: 29, w: 20, h: 24}
+  hotspot: {x: 34.6, y: 33.7, w: 19.2, h: 10.2}
 
 # ---------------- Under review ----------------
 
@@ -86,7 +86,7 @@
   summary: "A benchmark that injects silent tool errors into realistic e-commerce workflows to test whether agents notice, re-fetch and recover."
   links:
     - {name: arXiv, url: "https://arxiv.org/abs/2610.27777"}
-  hotspot: {x: 67, y: 54, w: 31, h: 12}
+  hotspot: {x: 53.9, y: 13.8, w: 34.7, h: 15.1}
 
 - id: LatBridge
   group: review
@@ -101,7 +101,7 @@
   summary: "Swap the model inside a latent-communication multi-agent system without breaking the messages the other agents rely on."
   links:
     - {name: arXiv, url: "https://arxiv.org/abs/2610.27813"}
-  hotspot: {x: 42, y: 66, w: 17, h: 25}
+  hotspot: {x: 74.4, y: 42.1, w: 24.0, h: 22.8}
 
 - id: InsightRAG
   group: review
@@ -116,7 +116,7 @@
   summary: "Insight-guided retrieval that aggregates scholars' judgments scattered across papers to generate scientific surveys."
   links:
     - {name: arXiv, url: "https://arxiv.org/abs/2610.28085"}
-  hotspot: {x: 67, y: 41, w: 31, h: 13}
+  hotspot: {x: 53.9, y: 1.6, w: 34.7, h: 10.8}
 
 - id: PACA
   group: review
@@ -131,7 +131,7 @@
   summary: "Benchmarks whether coding assistants learn a user's cross-session ambiguity patterns, so they ask fewer questions and write better code."
   links:
     - {name: arXiv, url: "https://arxiv.org/abs/2607.26611"}
-  hotspot: {x: 40, y: 54, w: 24, h: 9}
+  hotspot: {x: 43.7, y: 58.3, w: 22.7, h: 9.4}
 
 - id: BirdRead
   group: review
@@ -143,7 +143,7 @@
   authors: "<strong>Wenshuo Zhang</strong>, Cheng Zhang, Baiqiao Zhang, Shuchang Xu, Huamin Qu, Yun Wang, Leixian Shen"
   venue: "CHI 2027 (under review), with Microsoft Research Asia"
   summary: "Conversational agentic media that replace text-only chat with a probe-driven bird's-eye view for critical paper reading."
-  hotspot: {x: 6, y: 59, w: 32, h: 41}
+  hotspot: {x: 5.6, y: 58.8, w: 33.4, h: 39.5}
 
 - id: QuAD
   group: review
@@ -158,7 +158,7 @@
   summary: "A content-aware multi-agent system that quantifies the quality of qualitative data by aligning content and demographic distributions."
   links:
     - {name: arXiv, url: "https://arxiv.org/abs/2610.23153"}
-  hotspot: {x: 2, y: 0, w: 30, h: 42}
+  hotspot: {x: 1, y: 10, w: 32, h: 38}
 
 # ---------------- Overview-figure tooltip only (no card) ----------------
 
@@ -169,7 +169,7 @@
   status: "Deployed · Paper to be released"
   summary: "Sketch-of-thought agentic SFT: concise trajectories distilled into a small model that serves 21x more users per GPU in the WeChat agent. Deployed in production; the paper is still in progress and will be submitted to an industry track."
   venue: "Tencent WeChat (deployed)"
-  hotspot: {x: 67, y: 66, w: 31, h: 10}
+  hotspot: {x: 53.9, y: 28.9, w: 34.7, h: 6.7}
 
 # Commented out (not shown on the page):
 # - id: UAV
