@@ -497,22 +497,23 @@ a.explore-card {
 .tmap .tmap-pin.is-open { z-index: 20; }
 .tmap-pin.is-home .tmap-dot,
 .tmap-pin.is-phd .tmap-dot {
-    left: -11px;
-    top: -11px;
-    width: 22px;
-    height: 22px;
+    left: -7.5px;
+    top: -7.5px;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 8px;
     line-height: 1;
     background: #fff;
-    border: 2px solid $hp-accent;
+    border: 1.5px solid $hp-accent;
 }
-.tmap-pin.is-home .tmap-pop { bottom: 22px; }
-.tmap-pin.is-phd .tmap-pop { bottom: 22px; }
+.tmap-pin.is-home .tmap-pop,
+.tmap-pin.is-phd .tmap-pop { bottom: 15px; }
 .tmap-pin.is-phd.pop-below .tmap-pop,
-.tmap-pin.is-home.pop-below .tmap-pop { bottom: auto; top: 22px; }
+.tmap-pin.is-home.pop-below .tmap-pop { bottom: auto; top: 15px; }
 
 // zoom buttons (top-right of the map)
 .tmap-ctrl {
@@ -541,11 +542,6 @@ a.explore-card {
         &:hover { border-color: $hp-accent; color: $hp-accent; }
     }
 }
-
-.tmap-pop { bottom: 22px; }
-.tmap-pin.is-phd .tmap-pop { bottom: 22px; }
-.tmap-pin.is-phd.pop-below .tmap-pop,
-.tmap-pin.is-home.pop-below .tmap-pop { bottom: auto; top: 22px; }
 
 .tmap-pop {
     display: none;
